@@ -277,16 +277,16 @@ p{
 
 .details span {
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     color: #3E6939;
     background-color: #D9D9D9;
     padding: 8px 10px;
-    font-weight: 300;
+    font-weight: 400;
 
 }
 
 .additional{
-    font-size: 14px;
+    font-size: 12px;
     color: #3E6939;
     font-weight: 400;
     padding-top: 10px;
