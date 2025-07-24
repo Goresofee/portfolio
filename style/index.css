@@ -58,6 +58,7 @@ hr{
 
 }
 
+
 .now{
     color: #2B4927; 
     text-decoration: underline;
@@ -97,6 +98,12 @@ hr{
     height: 3px;
     background: #4A7B42;
     display: block;
+  }
+
+  .my_title{
+    font-size: 34px;
+    font-weight: 400;
+    
   }
   
   /* Медиа-запрос для мобильной версии */
@@ -179,7 +186,7 @@ hr{
     margin-right: auto;
 }
 
-h2{
+.my_title{
     font-size: 24px;
     line-height: 1.1;
     padding-bottom: 30px;
