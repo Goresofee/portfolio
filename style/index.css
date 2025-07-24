@@ -98,9 +98,17 @@ hr{
   }
 
   .my_title{
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 400;
 
+  }
+
+  .hero{
+    padding: 50px;
+  }
+
+  .openwork{
+    font-size: 16px;
   }
   
   /* Медиа-запрос для мобильной версии */
