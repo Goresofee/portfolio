@@ -27,9 +27,6 @@ a{
     color:#3E6939;
 }
 
-img{
-    max-width: 100%;
-}
 
 hr{
   border: none;
@@ -103,7 +100,7 @@ hr{
   .my_title{
     font-size: 34px;
     font-weight: 400;
-    
+
   }
   
   /* Медиа-запрос для мобильной версии */
@@ -392,15 +389,10 @@ p{
  p:where(:not([class]):not(:last-child)) {
    margin-bottom: var(--paragraphMarginBottom);
  }
- img,
- video {
-   max-width: 100%;
-   height: auto;
- }
+
  html {
 
    height: 100%;
-
    scrollbar-gutter: stable;
  }
 
