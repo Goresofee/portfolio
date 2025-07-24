@@ -3,9 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GorePortfolio</title>
+    <link rel="stylesheet" href="style/index.css">
+
 </head>
 <body>
-    <div>hey</div>
+    <div id="floating-image" style="
+  position: fixed;
+  top: 100px;
+  right: 100px;
+  width: 300px;
+  height: 300px;
+  pointer-events: none;
+  z-index: 9999;
+  display: none;
+">
+  <img src="images/tramp.png" alt="картинка" style="max-width: 100%; max-height: 100%;">
+</div>
+
+
+<div id="floating-image" style="
+  position: fixed;
+  top: 30px;
+  right: 60px;
+  width: 200px;
+  height: 200px;
+  pointer-events: none;
+  z-index: 9999;
+  display: none;
+">
+  <img src="nero.png" alt="картинка" style="max-width: 80%; max-height: 80%;">
+</div>
+
+<body>
+    <header class="container">
+        <div class="header">
+        <span class="logo">Гореликова София | Портфолио</span>
+        <nav class="nav">
+            <ul class="nav--list">
+                <li class="now"><a href="#">главная</a></li>
+                <li><a href="cv.html" class="menu">резюме</a></li>
+                <li><a href="rev.html" class="menu">обо мне</a></li>
+                <li><a href="prj.html" class="menu">проекты</a></li>
+                <div> <a href="https://t.me/goresofee" class="button">связаться</a>
+                </div>
+            </ul>
+        </nav>
+        <div class="burger" id="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+    </div>
+    </header>
+
+    <div class="hero">
+        <div class="photo">
+            <img 
+                class="portrait"
+                src="portrait.png" 
+                alt="photo" 
+                height="1100px" width="1100pxpx" />
+
+        </div>
+        <div class="hero--info">
+            <div>
+            <h2>Привет, я Соня — дизайнер с опытом 5+ лет. <br>Создаю айдентики, графику и мультимедиа.</h2>
+            <p>Я работаю с фирменными стилями и визуальными концепциями — продумываю и адаптирую их под внутренние и внешние задачи. Строю дизайн-системы, которые понятны людям и <span class="hover-word" data-img="images/tramp.png">выгодны бизнесу.</span></p>
+            <p>Свободно владею Adobe и Figma. Знаю основы 3D и нюансы работы с печатной и мерч-продукцией. Умею ставить понятное ТЗ для motion-дизайнера, делаю 2D/3D-анимацию сама. Работаю <span class="hover-word" data-img="nero.png"> с нейросетями так,</span> чтобы дали результат. 
+                Если чего-то не знаю — разберусь.</p>
+                <h5>Открыта к предложениям о работе в студии или в штате</h5>
+                </div>
+        </div>
+    </div>
+
+    <div class="anotation"><p> Ниже — примеры проектов, в которых можно увидеть мой подход и участие на разных этапах: от разработки до сдачи.</p></div>
+
+
+    <div>
+        <hr>
+        <div class="container_cas">
+           <div class="item">
+               <div> <img class="corp_logo" src="Logos/VK_logo.svg" style="width: 80px;" alt="VK_logo"></div>
+               <div class="content">
+                   <div class="open">ДОМА ПОГОВОРИМ</div>
+                   <p class="data">2024-2025</p>
+               </div>
+               
+               <div class="details">
+                       <span>айдентика, оформление шоу</span>
+                       <p class="additional">Разработка фирменного стиля. Введение на всех этапах продакшена</p>
+               </div>
+               <a href="VK/VK.html" class="case-link">смотреть проект</a>
+           </div>
+       </div>
+
+       <hr>
+
+       <div>
+        <div class="container_cas">
+           <div class="item">
+               <div> <img class="corp_logo" src="Logos/avito.svg" style="width: 80px;" alt="VK_logo"></div>
+               <div class="content">
+                   <div class="open">avito.tech</div>
+                   <p class="data">2023-2024</p>
+               </div>
+               
+               <div class="details">
+                       <span>айдентика, оформление шоу</span>
+                       <p class="additional">Адаптация материалов под фирменный стиль. Разработка решений  </p>
+               </div>
+               <a href="Avito/avito.html" class="case-link">смотреть проект</a>
+           </div>
+       </div>
+       <hr>
+  
+
+
+
+
+
+        <div class="social">
+            <a href="#" class="social-media">Telegram</a>
+            <a href="https://www.linkedin.com/in/sophee-gorelikova-1b2928273/" class="social-media">Linkdin</a>
+            <a href="#" class="social-media">SoundCloud</a>
+        </div>
+
+<script src="main.js"></script>
+<script src="pic.js" defer></script>
+
 </body>
 </html>
