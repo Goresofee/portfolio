@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: "VK_Sans";
-    src: url("fonts/VKSansDisplayExp-DmBd.woff2") format("woff2");
+    src: url('fonts/VK_Sans') format('woff2');
     font-weight: 200;
     font-style: normal;
 }
@@ -74,7 +74,7 @@ hr{
 
 .main{
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     color: #0077FF;
     text-decoration: none;
     margin-left: 30px;
