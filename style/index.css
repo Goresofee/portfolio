@@ -100,7 +100,7 @@ hr{
   .my_title{
     font-size: 24px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 26px;
 
   }
 
@@ -128,7 +128,6 @@ hr{
   .anotation{
     padding-top: 40px;
     padding-left: 50px;
-    width: 45%;
   }
 
   /* Медиа-запрос для мобильной версии */
@@ -309,7 +308,7 @@ p{
     background-color: #D9D9D9;
     transition: 0.3s;
     text-align: center;
-    line-height: 16px; 
+    line-height: 20px; 
 
 }
 
