@@ -1,13 +1,13 @@
 @font-face {
     font-family: "Onest";
-    src: url("./fonts/Onest-Regular.woff2") format("woff2");
+    src: url("fonts/Onest-Regular.woff2") format("woff2");
     font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Onest";
-    src: url("./fonts/Onest-Regular.woff2") format("woff2");
+    src: url("fonts/Onest-Regular.woff2") format("woff2");
     font-weight: 200;
     font-style: normal;
 }
@@ -15,7 +15,7 @@
 
 @font-face {
     font-family: "VK_Sans";
-    src: url("VK\ Sans\ Display\ Expanded\ DemiBold.woff2") format("woff2");
+    src: url("fonts/VKSansDisplayExp-DmBd.woff2") format("woff2");
     font-weight: 200;
     font-style: normal;
 }
