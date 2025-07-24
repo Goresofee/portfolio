@@ -104,8 +104,9 @@ hr{
   }
 
   .hero{
-    justify-content: start;
+    display: flex;
     align-items: center;
+    justify-content: center;
     column-gap: clamp(5px, 25.42vw, 900px);
     padding-left: 50px;
     padding-right: 50px;
@@ -117,7 +118,6 @@ hr{
 
   .anotation{
     padding-left: 50px;
-    padding-right: 50px;
   }
 
   
