@@ -104,12 +104,22 @@ hr{
   }
 
   .hero{
-    padding: 50px;
+    justify-content: start;
+    align-items: center;
+    column-gap: clamp(5px, 25.42vw, 900px);
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .openwork{
     font-size: 16px;
   }
+
+  .anotation{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
   
   /* Медиа-запрос для мобильной версии */
   @media (max-width: 800px) {
