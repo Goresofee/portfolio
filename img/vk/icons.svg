@@ -1,0 +1,41 @@
+<svg width="738" height="21" viewBox="0 0 738 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M312 6H324" stroke="#0077FF" stroke-linecap="round"/>
+<path d="M312 11H324" stroke="#0077FF" stroke-linecap="round"/>
+<path d="M312 16H324" stroke="#0077FF" stroke-linecap="round"/>
+<path d="M7.5 5L1 11.5L7.5 18" stroke="#0077FF" stroke-linecap="round"/>
+<path d="M37.5 18L44 11.5L37.5 5" stroke="#0077FF" stroke-linecap="round"/>
+<rect x="272" y="3.5" width="6" height="6" rx="0.5" stroke="#0077FF"/>
+<rect x="272" y="12.5" width="6" height="6" rx="0.5" stroke="#0077FF"/>
+<rect x="280" y="3.5" width="6" height="6" rx="0.5" stroke="#0077FF"/>
+<rect x="280" y="12.5" width="6" height="6" rx="0.5" stroke="#0077FF"/>
+<circle cx="308.5" cy="6" r="1" fill="#0077FF"/>
+<circle cx="670.5" cy="11" r="1" fill="#0077FF"/>
+<circle cx="674.5" cy="11" r="1" fill="#0077FF"/>
+<circle cx="678.5" cy="11" r="1" fill="#0077FF"/>
+<path d="M691 10L694.5 13.5L697.5 10.5" stroke="#0077FF" stroke-linecap="round"/>
+<circle cx="308.5" cy="11" r="1" fill="#0077FF"/>
+<circle cx="308.5" cy="16" r="1" fill="#0077FF"/>
+<rect x="347" y="4.5" width="18" height="14" rx="2.5" stroke="#0077FF"/>
+<rect x="384" y="4.5" width="18" height="9" rx="2.5" stroke="#0077FF"/>
+<rect x="383.5" y="16" width="3" height="3" rx="1" fill="#0077FF"/>
+<rect x="387.5" y="16" width="3" height="3" rx="1" fill="#0077FF"/>
+<rect x="391.5" y="16" width="3" height="3" rx="1" fill="#0077FF"/>
+<rect x="395.5" y="16" width="3" height="3" rx="1" fill="#0077FF"/>
+<rect x="399.5" y="16" width="3" height="3" rx="1" fill="#0077FF"/>
+<rect x="459" y="5.5" width="4" height="4" rx="0.5" stroke="#0077FF"/>
+<rect x="459" y="15.5" width="4" height="4" rx="0.5" stroke="#0077FF"/>
+<rect x="465" y="5.5" width="4" height="4" rx="0.5" stroke="#0077FF"/>
+<rect x="465" y="15.5" width="4" height="4" rx="0.5" stroke="#0077FF"/>
+<rect x="471" y="5.5" width="4" height="4" rx="0.5" stroke="#0077FF"/>
+<path d="M511.5 7H507.5C506.395 7 505.5 7.89543 505.5 9V18C505.5 19.1046 506.395 20 507.5 20H517.5C518.605 20 519.5 19.1046 519.5 18V9C519.5 7.89543 518.605 7 517.5 7H513.5" stroke="#0077FF"/>
+<path d="M512.5 13.5V2" stroke="#0077FF" stroke-linecap="round"/>
+<path d="M509.5 4.5L512.5 1.5L515.5 4.5" stroke="#0077FF" stroke-linecap="round"/>
+<rect x="471" y="15.5" width="4" height="4" rx="0.5" stroke="#0077FF"/>
+<path d="M458.5 3H476.5" stroke="#0077FF" stroke-linecap="round"/>
+<path d="M458.5 13H476.5" stroke="#0077FF" stroke-linecap="round"/>
+<path d="M353 4.5V18.5" stroke="#0077FF" stroke-linecap="round"/>
+<path d="M359.5 4.5V18.5" stroke="#0077FF" stroke-linecap="round"/>
+<circle cx="674.5" cy="11" r="7.5" stroke="#0077FF"/>
+<circle cx="728.5" cy="10" r="5.5" stroke="#0077FF"/>
+<path d="M737.5 19L732.5 14" stroke="#0077FF" stroke-linecap="round"/>
+</svg>
