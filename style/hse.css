@@ -1,0 +1,160 @@
+@font-face {
+    font-family: "Onest";
+    src: url("./fonts/Onest-Regular.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Onest";
+    src: url("./fonts/Onest-Regular.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Onest", sans-serif;
+    background-color: #E4E4E4;
+    color: #194991;
+}
+
+
+
+@font-face {
+    font-family: "VK_Sans";
+    src: url("VK\ Sans\ Display\ Expanded\ DemiBold.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+.link {
+    text-decoration: none; /* убирает подчёркивание */
+    color: inherit;    
+}
+
+
+a{ 
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+hr{
+  border: none;
+  border-top: 1px solid #ffffff;
+  margin: 20px 0;
+}
+
+
+.all-page {
+    position: relative;
+}
+
+.first-part{
+    position: fixed;
+    height: 1920px;
+    width: 40%;
+    top: 0;
+    border-right: #ffffff 1px solid;
+}
+
+.novigation{
+    height: 55px;
+    margin-top: 35px;
+    border-bottom: #ffffff solid 1px;
+
+}
+
+
+.main{
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-bottom: 5px;
+
+}
+
+.name{
+    display: block;
+    position: relative;
+}
+
+.title{
+    font-size: 46px;
+    text-align: right;
+    color: #ffffff;
+    margin-top: 120px;
+    padding: 20px;
+}
+
+
+.about{
+    font-size: 18px;
+    color: #ffffFF;
+    font-weight: 400;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 80px;
+}
+
+.subtitle{
+    font-size: 14px;
+    color: #fffffF;
+    font-weight: 200;
+    margin-top: 120px;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: right;
+}
+
+.sec-part{
+    margin-left: 40%;
+}
+
+.Задача{
+font-size: 24px;
+font-weight: 400;
+padding-bottom: 5px;
+}
+
+.comment{
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.describe{
+    font-size: 16px;
+    padding: 50px;
+    padding-top: 100px;
+    font-weight: 400;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.image-mobile{
+    display: none;
+}
+  
+.background-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
