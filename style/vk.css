@@ -88,7 +88,8 @@ hr{
 }
 
 .title{ 
-    font-family: "Onest" ;
+
+    font-family: Arial;
     font-size: 46px;
     text-align: right;
     color: #0077FF;
