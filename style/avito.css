@@ -168,19 +168,15 @@ padding-bottom: 5px;
     text-align: center;
   }
   
-  
-
   .net {
-    padding: 50px;
+    padding: 30px;
     position: relative;
     display: inline-block;
-    width: 80%; 
 
   }
   
   .net img {
     display: block;
-    width: 100%;
     height: auto;
   }
   
