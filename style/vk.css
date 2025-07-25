@@ -87,7 +87,8 @@ hr{
     position: relative;
 }
 
-.title{
+.title{ 
+    font-family: "Onest" ;
     font-size: 46px;
     text-align: right;
     color: #0077FF;
