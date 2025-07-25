@@ -172,13 +172,13 @@ padding-bottom: 5px;
   .net {
     position: relative;
     display: inline-block;
-    width: 100%; 
+    width: 100%; /* можно задать фиксированную ширину, если нужно */
     max-width: 800px; 
   }
   
   .net img {
     display: block;
-    width: 80%;
+    width: 100%;
     height: auto;
   }
   
@@ -186,11 +186,10 @@ padding-bottom: 5px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-30%, -70%);
+    transform: translate(-50%, -50%);
     padding: 16px 24px;
-    text-align: right;
+    text-align: center;
     font-size: 16px;
-    
 
   }
 
@@ -271,6 +270,9 @@ padding-bottom: 5px;
 
 }
 
+.block{
+
+}
 
 .photos{
     position: relative;
