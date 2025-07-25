@@ -170,9 +170,10 @@ padding-bottom: 5px;
   
 
   .net {
+    padding: 50px;
     position: relative;
     display: inline-block;
-    width: 100%; /* можно задать фиксированную ширину, если нужно */
+    width: 800%; 
     max-width: 800px; 
   }
   
@@ -186,10 +187,11 @@ padding-bottom: 5px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-30%, -70%);
     padding: 16px 24px;
-    text-align: center;
+    text-align: right;
     font-size: 16px;
+    
 
   }
 
