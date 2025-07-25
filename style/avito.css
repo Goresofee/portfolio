@@ -172,6 +172,7 @@ padding-bottom: 5px;
 .net {
     position: relative;
     display: inline-block;
+    width: 100%; /* можно задать фиксированную ширину, если нужно */
     max-width: 800px; 
   }
   
