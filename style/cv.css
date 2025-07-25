@@ -1,0 +1,83 @@
+body {
+    font-family: 'SF UI Display', sans-serif;
+    background-color: #EFEFEF; 
+    color: #3E6939;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 110px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.description{
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 110px;
+}
+
+
+.union{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+h2 {
+    font-weight: 400;
+    font-size: 36px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 36px;
+    margin: 0;
+}
+
+.date {
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0;
+}
+
+
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 45px;
+}
+
+li {
+    margin-bottom: 5px;
+    color: #3E6939;
+    text-align: left;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+
+
+.vol{
+    margin-top: 110px;
+}
+
+.custom-link{
+    color: #3E6939;
+    text-decoration: solid 1px;
+
+}
+
+.custom-link:hover {
+    color: #2B4927; 
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 1px;
+}
