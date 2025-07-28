@@ -1,10 +1,41 @@
-body {
-    font-family: 'SF UI Display', sans-serif;
-    background-color: #EFEFEF; 
-    color: #3E6939;
+@font-face {
+    font-family: "Onest";
+    src: url("./fonts/Onest-Regular.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Onest";
+    src: url("./fonts/Onest-Regular.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+*{
     margin: 0;
     padding: 0;
 }
+
+.link {
+    text-decoration: none; /* убирает подчёркивание */
+    color: inherit;    
+}
+
+
+body{
+    font-family: "Onest", sans-serif;
+    background-color: #EFEFEF; 
+    color: #3E6939;
+}
+
+
+.novigation{
+padding: 50px;
+
+}
+
 
 .container {
     margin: 110px;
@@ -13,7 +44,7 @@ body {
 .main{
     padding: 50px;
     font-size: 14px;
-    color: #3E6939;
+      color: #3E6939;
 }
 
 h1 {
