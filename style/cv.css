@@ -32,8 +32,8 @@ body{
 
 
 .novigation{
-padding: 50px;
-
+    padding: 50px;
+    text-decoration: none;
 }
 
 
@@ -61,27 +61,23 @@ h1 {
 
 .union{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
 
 }
 
 
-h2 {
+.work {
     font-weight: 400;
-    font-size: 36px;
+    font-size: 14px;
 }
 
 h3 {
     font-weight: 300;
-    font-size: 36px;
-    margin: 0;
+    font-size: 24px;
 }
 
 .date {
     font-weight: 300;
-    font-size: 24px;
-    margin: 0;
+    font-size: 14px;
 }
 
 
