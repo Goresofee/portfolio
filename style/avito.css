@@ -245,24 +245,6 @@ padding-bottom: 5px;
 
 }
 
-.video_size{
-    width: 1067px;
-    height: 600px;
-}
-
-.video{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.icons{
-    padding: 20px;
-    padding-top: 30px;
-}
 
 .wrap{
     display: flex;
@@ -273,7 +255,15 @@ padding-bottom: 5px;
 .photos{
     position: relative;
     width: 100%;
-    height: 720px;
+}
+
+.viveo{
+    padding: 50px;
+    height: 250;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item {
