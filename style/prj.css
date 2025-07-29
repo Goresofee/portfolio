@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Onest";
+    src: url("./fonts/Onest-Regular.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Onest";
+    src: url("./fonts/Onest-Regular.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Onest', sans-serif;
+    background-color: #EFEFEF;
+    color: #3E6939;
+}
+a{ 
+    text-decoration: none;
+    color:#3E6939;
+}
+
+.cases{
+    position: absolute;
+}
+
+
+hr{
+  border: none;
+  border-top: 1px solid #2B4927;
+  margin: 20px 0;
+}
+
+.main{
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.common{
+    padding: 50px;
+}
+
+.no_link{
+    width: 70%;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+p{
+    font-size: 20px;
+}
+
