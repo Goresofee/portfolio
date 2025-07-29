@@ -12,97 +12,6 @@
     font-style: normal;
 }
 
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.link {
-    text-decoration: none; /* убирает подчёркивание */
-    color: inherit;    
-}
-
-
-body{
-    font-family: "Onest", sans-serif;
-    background-color: #EFEFEF; 
-    color: #3E6939;
-}
-
-
-.novigation{
-    padding: 50px;
-    padding-top: 100px;
-    text-decoration: none;
-}
-
-
-.container {
-    margin: 110px;
-}
-
-.main{
-    padding: 50px;
-    font-size: 14px;
-      color: #3E6939;
-}
-
-h1 {
-    font-weight: 400;
-    font-size: 48px;
-}
-
-.description{
-    font-weight: 300;
-    font-size: 24px;
-    margin-bottom: 110px;
-}
-
-
-.union{
-    width: 100%;
-
-}
-
-
-.work {
-    font-weight: 400;
-    font-size: 14px;
-}
-
-h3 {
-    font-weight: 300;
-    font-size: 24px;
-}
-
-.date {
-    font-weight: 300;
-    font-size: 14px;
-}
-
-
-
-ul {
-    list-style: none;
-    padding-left: 20px;
-    margin-bottom: 45px;
-}
-
-li {
-    margin-bottom: 5px;
-    color: #3E6939;
-    text-align: left;
-    font-weight: 300;
-    font-size: 24px;
-}
-
-
-
-.vol{
-    margin-top: 110px;
-}
-
 .custom-link{
     color: #3E6939;
     text-decoration: solid 1px;
@@ -114,4 +23,179 @@ li {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 1px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.all{
+    padding: 50px;
+}
+
+
+a{
+    text-decoration: none; 
+}
+
+
+body{
+    font-family: "Onest", sans-serif;
+    background-color: #EFEFEF; 
+    color: #3E6939;
+}
+
+.novigation{
+    padding-bottom: 10px;
+}
+.main{
+    font-size: 16px;
+    color: #3E6939;
+    font-weight: 300;
+}
+hr{
+    border: none;
+    border-top: 0.5px solid #2B4927;
+    margin: 20px 0;
+    padding: 0;
+  }
+
+
+.container{
+padding-bottom: 30px;
+}
+.name {
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.description{
+    font-weight: 300;
+    font-size: 16px;
+    width: 70%;
+}
+
+.union{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+.work {
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+.job{
+    padding: 20px 0px;
+    width: 45%;
+    height: 530px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.date {
+    padding: 10px 0;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 10px;
+    margin-bottom: 45px;
+    font-size: 16px;
+}
+
+li {
+    margin-bottom: 3px;
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+
+.prj{
+    width: 45%;
+    height: 530px;
+    
+}
+
+.vol{
+    width: 45%;
+    height: 230px;
+}
+
+.skills{
+    padding-top: 30px;
+}
+
+text{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+@media (max-width: 768px) {
+.description{
+    font-size: 14px;
+    text-align: justify;
+    width: 100%;
+
+}
+
+.union{
+    flex-direction: column;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 22px;
+}
+
+.job{
+    width: 100%;
+    height: auto;
+}
+
+.work{
+    font-size: 22px;
+    text-align: center;
+}
+
+.date{
+    font-size: 10px;
+    text-align: center;
+}
+
+.prj{
+    width: 100%;
+    height: auto;
+}
+.vol{
+    width: 100%;
+    height: auto;
+
+}
+
+text{
+    font-size: 18px;
+}
+
+
+
+
 }
