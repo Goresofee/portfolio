@@ -78,3 +78,45 @@ p{
     color: #2B4927;
 }
 
+.arrow{
+    width: 70%;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .main{
+        flex-direction: column;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    p{
+        text-align: justify;
+        font-size: 12px;
+    }
+    .no_link{
+        width: 100%;
+    }
+
+    .common{
+        padding: 40px;
+    }
+
+    .annotation{
+        width: 100%;
+    }
+
+    .yes_link{
+        padding-top: 20px;
+        text-align: right;
+
+    }
+.arrow{
+    width: 10%;
+}
+ 
+
+    }
