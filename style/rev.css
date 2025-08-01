@@ -1,30 +1,51 @@
 @font-face {
     font-family: "Onest";
     src: url("./fonts/Onest-Regular.woff2") format("woff2");
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Onest";
     src: url("./fonts/Onest-Regular.woff2") format("woff2");
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
 }
+
+.custom-link{
+    color: #3E6939;
+    text-decoration: solid 1px;
+
+}
+
+.custom-link:hover {
+    color: #2B4927; 
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 1px;
+}
+
 
 *{
     margin: 0;
     padding: 0;
 }
 
-body{
-    font-family: 'Onest', sans-serif;
-    background-color: #EFEFEF;
-    color: #3E6939;
+
+.all{
+    padding: 50px;
 }
-a{ 
-    text-decoration: none;
-    color:#3E6939;
+
+
+a{
+    text-decoration: none; 
+}
+
+
+body{
+    font-family: "Onest", sans-serif;
+    background-color: #EFEFEF; 
+    color: #2B4927;
 }
 
 .novigation{
@@ -35,29 +56,98 @@ a{
     color: #3E6939;
     font-weight: 300;
 }
-
-
 hr{
-  border: none;
-  border-top: 1px solid #2B4927;
-  margin: 20px 0;
-}
+    border: none;
+    border-top: 0.5px solid #2B4927;
+    margin: 20px 0;
+    padding: 0;
+  }
 
 
 .container{
-    padding: 50px;
+padding-bottom: 30px;
+}
+.name {
+    font-weight: 400;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.description{
+    font-weight: 300;
+    font-size: 16px;
+    width: 70%;
 }
 
-.h4{
+
+.job{
+    padding: 20px 0px;
+    width: 60%;
+}
+
+h3 {
+    font-weight: 300;
     font-size: 24px;
 }
 
-.p{
-    font-size: 18px;
-    font-weight: 400;
-    width: 50%;
+.date {
+    padding: 10px 0;
+    font-weight: 300;
+    font-size: 16px;
 }
 
-.name{
-    font-size: 20px;
+
+
+
+@media (max-width: 768px) {
+.description{
+    font-size: 14px;
+    text-align: justify;
+    width: 100%;
+
+}
+
+.union{
+    flex-direction: column;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 22px;
+}
+
+.job{
+    width: 100%;
+    height: auto;
+}
+
+.work{
+    font-size: 22px;
+    text-align: center;
+}
+
+.date{
+    font-size: 10px;
+    text-align: center;
+}
+
+.prj{
+    width: 100%;
+    height: auto;
+}
+.vol{
+    width: 100%;
+    height: auto;
+
+}
+
+text{
+    font-size: 18px;
+}
+
+
+
+
 }
