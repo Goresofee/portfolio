@@ -483,13 +483,22 @@ p{
     align-items: flex-start;
   }
 
+  .content{
+    margin: 0;
+  }
+
   .item{
     align-items: center;
   }
 
-  .details{
-    text-align: center;
-  }
+ .details{
+  margin: 0;
+ }
+
+ .additional{
+  text-align: center;
+  align-items: center;
+ }
 
   .case__right {
     align-self: stretch;
@@ -502,10 +511,8 @@ p{
     text-align: center;
   }
 
-.additional{
-  text-align: center;
-  align-items: center;
-}
+
+
 
 
 }
