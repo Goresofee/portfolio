@@ -115,7 +115,7 @@ h3 {
 
 h3{
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .job{
@@ -123,28 +123,10 @@ h3{
     height: auto;
 }
 
-.work{
-    font-size: 22px;
-    text-align: center;
-}
 
 .date{
-    font-size: 10px;
-    text-align: center;
-}
-
-.prj{
-    width: 100%;
-    height: auto;
-}
-.vol{
-    width: 100%;
-    height: auto;
-
-}
-
-text{
-    font-size: 18px;
+    font-size: 16px;
+    text-align: right;
 }
 
 
