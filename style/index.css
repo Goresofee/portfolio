@@ -483,6 +483,14 @@ p{
     align-items: flex-start;
   }
 
+  .item{
+    align-items: center;
+  }
+
+  .details{
+    text-align: center;
+  }
+
   .case__right {
     align-self: stretch;
     width: 100%;
