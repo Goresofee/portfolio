@@ -162,22 +162,20 @@ padding-bottom: 5px;
 }
 
 .techsoc{
-    padding-right: 80px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     text-align: right;
-    column-gap: 40px;
+    column-gap: 5px;
 
 }
 
 .gymsiens{
-    padding-right: 80px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     text-align: right;
-    column-gap: 40px;
+    column-gap: 5px;
 
 }
 
@@ -191,9 +189,22 @@ padding-bottom: 5px;
 
 }
 
-.public{
-    padding-top: 50px;
+.render1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    column-gap: 5px;
 }
+
+.render2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    column-gap: 5px;
+}
+
 
 
 .slider{
