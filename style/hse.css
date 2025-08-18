@@ -162,8 +162,22 @@ padding-bottom: 5px;
 }
 
 .techsoc{
-     display: flex;
-     gap: 10px;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    column-gap: 40px;
+
+}
+
+.gymsiens{
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    column-gap: 40px;
 
 }
 
