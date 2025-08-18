@@ -167,6 +167,7 @@ padding-bottom: 5px;
     justify-content: flex-end;
     text-align: right;
     column-gap: 5px;
+    padding-bottom: 10px;
 
 }
 
@@ -205,6 +206,21 @@ padding-bottom: 5px;
     column-gap: 5px;
 }
 
+.color_cold{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    column-gap: 5px;
+}
+
+.color_warm{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+    column-gap: 5px;
+}
 
 
 .slider{
