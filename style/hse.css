@@ -164,15 +164,13 @@ padding-bottom: 5px;
 .techsoc{
     display: flex;
     align-items: center;
-    justify-content:space-around;
-    padding-bottom: 10px;
+    justify-content:center;
 }
 
 .gymsiens{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    text-align: center;
+    justify-content: baseline;
 }
 
 .primech{
