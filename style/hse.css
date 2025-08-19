@@ -170,7 +170,7 @@ padding-bottom: 5px;
 .gymsiens{
     display: flex;
     align-items: center;
-    justify-content: baseline;
+    justify-content: center;
 }
 
 .primech{
@@ -296,14 +296,14 @@ padding-bottom: 5px;
 
 .item {
     position: absolute;
-    width: 150px; /* или auto, или медиазапросы */
+    width: 300px;
     z-index: 1;
     transition: transform 0.3s ease, z-index 0.3s;
 }
 
 
 .item:hover{
-    transform: scale(2.5);
+    transform: scale(1.2);
     z-index: 999;
 }
 
