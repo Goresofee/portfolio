@@ -18,7 +18,7 @@
 }
 
 body{
-    font-family: 'Onest', sans-serif;
+    font-family: 'Onest', 'Arial', sans-serif;
     background-color: #EFEFEF;
     color: #3E6939;
 }
@@ -247,7 +247,8 @@ p{
 
 .content {
     margin-left: 30px;
-    width: 240px;
+    width: 250px;
+    justify-content: center;
     text-align: center;
     align-items: center;
     column-gap: 40px;
@@ -273,8 +274,8 @@ p{
 .details{
     display: block;
     align-items: center;
-    justify-content: center;
-    padding-left: 10%;
+    justify-content: flex-start;
+    padding-left: 60px;
 }
 
 
@@ -480,7 +481,7 @@ p{
 @media (max-width: 768px) {
   .case {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
   .content{
@@ -495,12 +496,17 @@ p{
   margin: 0;
   padding: 0;
   text-align: center;
-  align-items: baseline;
+  align-items: center;
+  justify-content: center;
+
  }
 
  .additional{
+  width: 100%;
   text-align: center;
   align-items: center;
+  justify-content: center;
+
  }
 
   .case__right {
