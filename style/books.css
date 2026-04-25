@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Onest";
+    src: url("fonts/Onest-Regular.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Onest";
+    src: url("fonts/Onest-Regular.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: "VKSansDisp";
+  font-style: normal;
+  font-weight: 400;
+  src: local("VK"),
+       url("/fonts/VK\ Sans\ Display\ Expanded\ Bold.woff2") format("woff2"),
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.link {
+    text-decoration: none; 
+    color: inherit;    
+}
+
+body{
+    font-family: "Onest", sans-serif;
+    background-color: #EFEFEF;
+    color: #3E6939;
+}
+a{ 
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+hr{
+  border: none;
+  border-top: 1px solid #3E6939;
+  margin: 20px 0;
+}
+
+
+.all-page {
+    position: relative;
+}
