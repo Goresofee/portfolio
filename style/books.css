@@ -146,30 +146,36 @@ h5{
 
 .complex {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     justify-content: center;
 }
 
 .left{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
 }
 
 .right{
     margin-top: 60px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    justify-content: left;
+    align-items: baseline;
+    gap: 25px;
+    width: 50%;
 }
 
-.left img{
-    width: 300px;
+.right-ph{
+    width: 75%; 
     height: auto;
 }
 
-.right img {
-    width: 650px; 
+.left-ph{
+    width: 40%; 
     height: auto;
     
 }
@@ -180,8 +186,7 @@ h5{
     text-align: left;
     display:flex;
     padding-top: 35px;
-    width: 50%;
-    padding-left: 7%;
+    width: 66%;
 
 }
 
@@ -201,7 +206,6 @@ h5{
     padding-left: 30px;
     padding-bottom: 20px;
     width: 45%
-
 }
 
 .text4 {
@@ -228,10 +232,6 @@ h5{
 .all-page {
     position: relative;
     padding: 30px;
-}
-
-
-.main{
 
 }
 
@@ -305,6 +305,7 @@ h5{
 .complex {
     display: flex;
     gap: 10px;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -321,15 +322,25 @@ h5{
     gap: 40px;
 }
 
-.left img{
-    width: 30%;
-    height: auto;
+.complex {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 
-.right img {
-    width: 50%; 
-    height: auto;
-    
+.text3{
+    font-size: 14px;
+    width: 90%
+
+}
+
+.text4{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    width: 100%;
+    margin-left: 0%; 
+    padding: 0px;
 }
 
 
