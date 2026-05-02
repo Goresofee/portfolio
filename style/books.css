@@ -302,12 +302,6 @@ h5{
     height: auto;
 }
 
-.complex {
-    display: flex;
-    gap: 10px;
-    flex-direction: row;
-    justify-content: center;
-}
 
 .left{
     display: flex;
@@ -331,7 +325,6 @@ h5{
 .text3{
     font-size: 14px;
     width: 90%
-
 }
 
 .text4{
