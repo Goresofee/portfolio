@@ -27,10 +27,6 @@
 
 }
 
-.link {
-    text-decoration: none; 
-    color: inherit;    
-}
 
 body{
     font-family: "Onest", sans-serif;
@@ -39,6 +35,7 @@ body{
 }
 a{ 
     text-decoration: none;
+    color: #3E6939;  
 }
 
 hr{
@@ -57,6 +54,21 @@ p{
     padding: 50px;
 }
 
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 30px;
+
+
+}
+
+.breadcrumb{
+    color: #3E6939;
+    font-size: 14px;
+    font-weight: 350;
+
+}
 
 .title{
     font-family: 'Onest', 'Arial', sans-serif;
@@ -74,6 +86,10 @@ p{
     align-items: flex-start;
 }
 
+.book-cover{
+    width: 60%; 
+    height: auto;
+}
 
 
 h5{
@@ -88,6 +104,12 @@ h5{
     align-items: baseline;
     gap: 25px;
     justify-content: center;
+ 
+}
+
+.onetwo-ph{
+    width:45%; 
+    height: auto;
 }
 
 .threefour{
@@ -96,10 +118,21 @@ h5{
     padding: 30px;
 }
 
+.text1{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    display:flex;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    width: 45%
+}
+
 .center{
     display:flex;
     justify-content: center;
     padding: 30px;
+
 
 }
 
@@ -133,10 +166,117 @@ h5{
     
 }
 
+.text2{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    display:flex;
+    padding-top: 35px;
+    width: 50%;
+    padding-left: 7%;
+
+}
+
 .fifsix{
     margin: 50px;
     display:flex;
     align-items: baseline;
     gap: 25px;
     justify-content: right;
+}
+
+.text3{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    display:flex;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    width: 45%
+
+}
+
+.text4 {
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    width: 36%;
+    margin-left: 35%; 
+    padding: 30px;
+}
+
+.eigthtwen{
+    display:flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+
+@media (max-width: 700px){
+
+
+.all-page {
+    position: relative;
+    padding: 30px;
+}
+
+
+.main{
+
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 350;
+    line-height: 1;
+    padding-bottom: 30px;
+}
+
+
+.ph-tx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    
+}
+
+.book-cover{
+    width: 90%;
+}
+
+.about{
+ font-size: 14px;  
+ font-weight: 400;
+ weight: 70%; 
+}
+
+.onetwo{
+    display:flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+
+.onetwo-ph{
+    width: 90%;
+}
+
+.text1{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    display:flex;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    width: 65%
+}
+
 }
