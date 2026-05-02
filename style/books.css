@@ -118,6 +118,11 @@ h5{
     padding: 30px;
 }
 
+.threefour-ph{
+    width:30%; 
+    height: auto; 
+}
+
 .text1{
     font-size: 16px;
     font-weight: 300;
@@ -266,17 +271,27 @@ h5{
 }
 
 .onetwo-ph{
-    width: 90%;
+    width: 120%;
 }
 
 .text1{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     text-align: left;
     display:flex;
     padding-left: 30px;
     padding-bottom: 20px;
-    width: 65%
+    width: 90%
+}
+
+.threefour{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.threefour-ph{
+    width: 70%;
 }
 
 }
