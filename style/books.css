@@ -137,8 +137,11 @@ h5{
     display:flex;
     justify-content: center;
     padding: 30px;
+}
 
-
+.center-ph{
+    width:60%; 
+    height: auto;
 }
 
 .complex {
@@ -287,11 +290,47 @@ h5{
 .threefour{
     display:flex;
     justify-content: space-between;
-    padding: 15px;
+    gap: 10px;
 }
 
 .threefour-ph{
-    width: 70%;
+    width: 60%;
 }
+
+.center-ph{
+    width:90%; 
+    height: auto;
+}
+
+.complex {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.left img{
+    width: 30%;
+    height: auto;
+}
+
+.right img {
+    width: 50%; 
+    height: auto;
+    
+}
+
 
 }
