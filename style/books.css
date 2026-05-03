@@ -353,15 +353,26 @@ h5{
 }
 
 .fifsix-ph{
-    width:55%;
+    width:60%;
     height: auto;
 }
 
 
+.eigthtwen-ph{
+    width:35%;
+    height: auto;
+}
+
 
 .text3{
     font-size: 14px;
-    width: 100%
+    width: 100%;
+
+    font-weight: 300;
+    text-align: left;
+    display:flex;
+    padding-left: 0px;
+    padding-bottom: 20px;
 }
 
 .text4{
@@ -371,6 +382,11 @@ h5{
     width: 100%;
     margin-left: 0%; 
     padding: 0px;
+    margin-bottom: 20px;
+}
+
+.twenty{
+    padding-top: 20px;
 }
 
 
