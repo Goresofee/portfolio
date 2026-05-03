@@ -198,6 +198,11 @@ h5{
     justify-content: right;
 }
 
+.fifsix-ph{
+    width:35%;
+    height: auto;
+}
+
 .text3{
     font-size: 16px;
     font-weight: 300;
@@ -223,6 +228,11 @@ h5{
     justify-content: center;
     gap: 10px;
     margin: 20px;
+}
+
+.eigthtwen-ph{
+    width:25%;
+    height: auto;
 }
 
 
@@ -282,9 +292,9 @@ h5{
     font-weight: 300;
     text-align: left;
     display:flex;
-    padding-left: 30px;
+    padding-left: 0px;
     padding-bottom: 20px;
-    width: 90%
+    width: 100%
 }
 
 .threefour{
@@ -298,7 +308,7 @@ h5{
 }
 
 .center-ph{
-    width:90%; 
+    width:110%; 
     height: auto;
 }
 
@@ -322,9 +332,36 @@ h5{
     justify-content: center;
 }
 
+.right-ph{
+    width: 100%; 
+    height: auto;
+}
+
+.left-ph{
+    width: 80%; 
+    height: auto;
+    
+}
+
+.text2{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    display:flex;
+    padding-top: 35px;
+    width: 100%;
+}
+
+.fifsix-ph{
+    width:55%;
+    height: auto;
+}
+
+
+
 .text3{
     font-size: 14px;
-    width: 90%
+    width: 100%
 }
 
 .text4{
