@@ -352,6 +352,10 @@ h5{
     width: 100%;
 }
 
+.fifsix{
+    gap: 10px;
+}
+
 .fifsix-ph{
     width:60%;
     height: auto;
